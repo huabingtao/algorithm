@@ -11,7 +11,8 @@ function App() {
   const arr = generateRandomArray(10000,1,10000)
   // const arr2 = generateRandomArray(10000,0,3)
   const arr2 = generateNearlyRandomArray(10000,100)
-  var arr3 = generateRandomArray(1000,1,1000)
+  // var arr3 = generateRandomArray(1000,1,1000)
+  var arr3 = [29,23,100,9,7,49,36,57]
   // var arr4 = [29,23,100,9,7,49,36,57];
   var arr4 = generateRandomArray(1000,1,1000)
   // var arr3 = [29,23,100,9,7,49,36,57];

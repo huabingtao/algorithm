@@ -12,7 +12,17 @@ function generateNearlyRandomArray(n,swap){
     arr[i] = i  
   }
   for(let j = 0; j< swap;j++){
-    arr[Math.floor(Math.random()* n + 1),Math.floor(Math.random()* n + 1)] = arr[Math.floor(Math.random()* n + 1), Math.floor(Math.random()* n + 1) ]
+    let zValue = null
+    let x = Math.floor(Math.random()* n + 1)
+    let xValue = arr[x]
+    let y = Math.floor(Math.random()* n + 1)
+    let yValue = arr[y]
+    zValue = xValue
+    xValue = yValue
+    yValue = zValue
+    arr[x] = xValue
+    arr[y] = yValue
+    // arr[Math.floor(Math.random()* n + 1),Math.floor(Math.random()* n + 1)] = arr[Math.floor(Math.random()* n + 1),Math.floor(Math.random()* n + 1) ]
   }
   return arr
 }
