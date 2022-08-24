@@ -9,6 +9,7 @@
  */
 export default function mergeSort(arr) {
   const res = __mergeSort(arr)
+  console.log('mergeSort arr',res);
   return res
 }
 

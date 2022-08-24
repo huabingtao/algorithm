@@ -19,7 +19,7 @@
 function bubbleSort(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
     // 一轮排序下来最后一个放置的是最大值,下一轮只不需要对最后一位进行排序
-    debugger
+    // debugger
     let done = true
     for (let j = 0; j < arr.length -i - 1; j++) {
       // 前后位置交换
