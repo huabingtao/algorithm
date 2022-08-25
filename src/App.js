@@ -17,8 +17,8 @@ function App() {
   var arr3 = [29,23,100,9,7,49,36,57]
   // var arr4 = [29,23,100,9,7,49,36,57];
   var arr4 = generateRandomArray(10000,1,1000)
-  var arr5 = generateRandomArray(10000,1,1000)
-  // var arr5 = [3,23,100,9,7,49,36,57]
+  // var arr5 = generateRandomArray(10000,1,1000)
+  var arr5 = [29,23,100,9,7,49,36,57]
   // var arr3 = [29,23,100,9,7,49,36,57];
   // console.log('原始数据:',arr3);
   // // console.log('arr:',arr);
